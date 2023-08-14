@@ -1,0 +1,182 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*REGLAS CSS PARA FAMILIAS*/
+
+/* INDEX - INICIO*/
+body {
+    background: rgb(206, 181, 223);
+    background: linear-gradient(90deg, rgba(206, 181, 223, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(174, 0, 0, 0.9934348739495799) 0%, rgba(46, 5, 5, 0.9934348739495799) 1%, rgba(200, 145, 145, 1) 16%, rgba(244, 231, 231, 1) 97%, rgba(238, 165, 165, 1) 99%);
+}
+
+.nombre_empresa {
+
+    color: #bcf5f5;
+    font-size: 55px;
+    font-style: normal;
+    font-family: 'Open Sans', 'sans-seriffont-family';
+    font-weight: 500;
+    display: flex;
+    bottom: 50px;
+    text-align: right;
+    align-items: end;
+    position: relative;
+    margin-left: 25px;
+}
+
+.logo_nombre {
+    background: rgb(206, 181, 223);
+    background: linear-gradient(90deg, rgba(206, 181, 223, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(174, 0, 0, 0.9934348739495799) 6%, rgba(228, 19, 19, 0.9934348739495799) 11%, rgba(45, 0, 0, 1) 43%, rgba(0, 0, 0, 1) 100%);
+    height: 150px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 0%;
+    align-content: center;
+    display: flex;
+
+}
+
+.logotipo {
+    width: 160px;
+    height: 150px;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20% ;
+
+
+}
+
+#botonera_nav {
+    background: rgb(206, 181, 223);
+    background: linear-gradient(90deg, rgba(206, 181, 223, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(174, 0, 0, 0.9934348739495799) 6%, rgba(228, 19, 19, 0.9934348739495799) 11%, rgba(45, 0, 0, 1) 43%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav h4 {
+
+    font-family: 'Open Sans';
+    color: rgba(247, 247, 17, 0.568);
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 0.6%;
+}
+
+nav ul li {
+    flex-grow: 2;
+
+}
+
+nav ul li a {
+
+    color: aliceblue;
+    padding: 2px 2px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+nav ul li a.activo {
+    background: rgb(141, 144, 148);
+    background: linear-gradient(180deg, rgba(141, 144, 148, 1) 0%, rgba(24, 2, 4, 1) 12%, rgba(228, 35, 47, 0.5256477591036415) 24%, rgba(176, 151, 151, 1) 100%, rgba(193, 202, 215, 1) 100%, rgba(57, 36, 45, 1) 100%);
+
+}
+
+
+nav ul li a:hover {
+    background: rgb(141, 144, 148);
+    background: linear-gradient(180deg, rgba(141, 144, 148, 1) 0%, rgba(24, 2, 4, 1) 12%, rgba(35, 95, 228, 0.5256477591036415) 24%, rgba(176, 151, 151, 1) 100%, rgba(193, 202, 215, 1) 100%, rgba(57, 36, 45, 1) 100%);
+
+}
+
+footer {
+
+    background: rgb(141, 144, 148);
+    background: linear-gradient(180deg, rgba(141, 144, 148, 1) 0%, rgba(24, 2, 4, 1) 12%, rgba(35, 95, 228, 0.5256477591036415) 24%, rgba(176, 151, 151, 1) 100%, rgba(193, 202, 215, 1) 100%, rgba(57, 36, 45, 1) 100%);
+    /*clear: both;*/
+    text-align: center;
+    padding: 3px;
+    margin-top: 100%;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+}
+
+footer ul {
+
+    list-style: none;
+    padding-top: 0%;
+    margin-bottom: 5%;
+
+}
+
+footer h5 {
+
+    font-size: 22px;
+    color: black;
+
+}
+
+footer li a {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.holder {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+main img {
+    width: 900px;
+    height: 450px;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    /*border-image-slice: fill;
+    border-style: solid;
+    border-color: black;    
+    border-width: 1px;*/
+    
+}
+
+.imagen_inicio {
+
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 20px;
+  
+}
+
+
+
+
+
+
+
+/* FIN ESTILOS INDEX - INICIO*/
+
+
+/* COMIENZO ESTILOS SERVICIOS*/
+
+
+
+
+
