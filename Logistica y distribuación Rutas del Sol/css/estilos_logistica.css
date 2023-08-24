@@ -9,7 +9,7 @@ body {
     /*background-color: rgb(236, 236, 191);*/
     background: rgb(36, 36, 35);
     background: linear-gradient(180deg, rgb(32, 34, 27) 0%, rgba(243, 245, 249, 1) 93%, rgba(245, 243, 243, 1) 100%);
- 
+
 }
 
 
@@ -199,7 +199,7 @@ main img {
     /*border-bottom-right-radius: 35%;*/
     margin-left: 0%;
     margin-top: 2%;
-    
+
 
     border-image-slice: fill;
     border-style: solid;
@@ -207,8 +207,8 @@ main img {
     border-width: 4px;*/
     margin-right: 40%;
     border-radius: 15%;
-    
-   
+
+
 
 
 
@@ -221,7 +221,7 @@ main img {
     width: 750px;
     height: 450px;
     transition: all 0.3s ease;
-    
+
 
 }
 
@@ -242,7 +242,7 @@ main {
     padding-right: 10%;
     padding-bottom: 10%;
 
-   /* background-image: url(../imagenes/forwarder2.jpg);
+    /* background-image: url(../imagenes/forwarder2.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
 
@@ -309,7 +309,7 @@ main h3 {
 
     width: 120%;
     height: 65%;
-    
+
 }
 
 footer img {
@@ -336,7 +336,7 @@ footer img {
     width: 90%;
     height: 85%;
     transition: all 0.3s ease;
-    
+
 
 }
 
@@ -390,7 +390,7 @@ footer img {
 
     display: flex;
     justify-content: space-between;
-    color: rgb(247, 224, 224);
+    color: rgb(25, 23, 23);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -482,4 +482,64 @@ footer img {
 .swing:hover {
     animation: swing 1s ease;
     animation-iteration-count: 5;
+}
+
+/* FIN ESTILOS SERVICIOS*/
+
+
+/* COMIENZO ESTILOS EQUIPOS/FLOTA*/
+
+.Galeria_equipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.Galeria_equipos img {
+
+    width: 250px;
+    height: 160px;
+    padding: 0.4em;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    margin-right: 1%;
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+
+.agrandar_galeria {
+
+    width: 95%;
+    height: 85%;
+    transition: all 0.3s ease;
+
+
+}
+
+.agrandar_galeria:hover {
+    transform: scale(1.1);
+    /*transform: scale(ambos);*/
+}
+
+.main_galeria {
+
+    background-image: url(../imagenes/terminal2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borde_galeria {
+
+    background: #3e3d3d;
+    color: #fff;
+
+    font-size: 0.5em;
+
+    transition: all 0.3s ease;
+}
+
+.borde_galeria:hover {
+    box-shadow: inset 0 0 0 30px #6c1834;
 }
