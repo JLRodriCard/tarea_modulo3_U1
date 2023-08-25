@@ -368,6 +368,7 @@ footer img {
 }
 
 
+
 /* FIN ESTILOS INDEX - INICIO*/
 
 
@@ -543,3 +544,137 @@ footer img {
 .borde_galeria:hover {
     box-shadow: inset 0 0 0 30px #6c1834;
 }
+
+/* FIN ESTILOS FLOTA / EQUIPOS*/
+
+
+/* COMIENZO ESTILOS COTIZADOR/CONTACTO*/
+
+
+.contacto{
+
+    display: flex;
+    gap:24px;
+    color: #0b0b0b;
+    background-image: url(../imagenes/contact-center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.contacto div{
+
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+
+}
+
+.datos ul li{
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.formulario p{
+    
+    display: flex;
+   
+
+    }
+
+.formulario p label{
+
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.formulario p:nth-child(4){
+
+    align-items: start;
+}
+
+.formulario textarea{
+
+    resize: none;
+    height: 150px;
+    background-color: #eae6a0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.formulario input[type="submit"]{
+
+    background-color:  #eae6a0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: rgb(29, 26, 26);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+
+}   
+input{
+
+    background-color: #eae6a0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+
+/* FIN ESTILOS COTIZADOR/CONTACTO*/
+
+
+/* COMIENZO ESTILOS EMPRESA/NOSOTROS*/
+
+.historia {
+
+    color: rgb(38, 36, 36);
+    font-weight: 0;
+
+}
+
+.historia h3{
+
+    color: #0b0b0b;
+}
+
+
+
+/* FIN ESTILOS EMPRESA/NOSOTROS*/
+
+
+/* COMIENZO ESTILOS EMPRESA/NOSOTROS/NOVEDADES */
+
+
+.novedades{
+
+    color: #dcd7d7;
+    text-align: left;
+    border-color: #0b0b0b;
+    border-bottom: #0b0b0b;
+    border-width: 2px;
+    background-image: url(../imagenes/img_4002_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:2px;
+    padding-left: 15px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-style: solid;
+  
+
+    
+
+}
+
+/* FIN ESTILOS COTIZADOR/CONTACTO*/
+
+
